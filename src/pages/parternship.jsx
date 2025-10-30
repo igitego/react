@@ -6,8 +6,8 @@ function Parternship(){
 return(
    <div className="bg-blue-200 min-h-screen">
             <div className="pt-30 w-[800px] ms-[500px]">
-                <h1 className=" text-center text-[30px] text-gray-500 font-bold underline mb-3">Our Team</h1>
-                <p className="ms-4">
+                <h1 className=" text-center text-[30px] text-gray-500 font-bold underline mb-3">Our Parternship</h1>
+                <p className="ms-0">
                     The Gikonko Health Center in Rwanda has several key partnerships, 
                     primarily with the Catholic Church's Institut Saint Boniface, 
                     the German and UK-based organization FHN, 
@@ -15,8 +15,8 @@ return(
                 </p>
             </div>
            <div className="flex justify-between ms-40 mt-14">
-            <div className="w-[500px] shadow-2xl">
-                <img src={logo3} className="rounded-2xl" />
+            <div className="w-[600px] shadow-2xl">
+                <img src={logo3} className="rounded-2xl w-[600px]" />
             </div>
             <div className="w-[900px] me-[200px] mt-4">
                 <div className="">
@@ -51,7 +51,7 @@ return(
            
         <div className="flex justify-between ms-40 mt-24">
             <div className="w-[500px] shadow-2xl">
-                <img src={logo2} className="rounded-2xl" />
+                <img src={logo2} className="rounded-2xl w-[500px]" />
             </div>
             <div className="w-[900px] me-[200px] mt-4">
                 <div className="">
@@ -71,7 +71,7 @@ return(
 
             <div className="flex justify-between ms-40 mt-14">
             <div className="w-[500px] shadow-2xl">
-                <img src={logo1} className="rounded-2xl" />
+                <img src={logo1} className="rounded-2xl w-[500px]" />
             </div>
             <div className="w-[900px] me-[200px] mt-4">
                 <div className="">
