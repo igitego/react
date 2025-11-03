@@ -7,7 +7,7 @@ const data = {
 
 function Contact(){
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-blue-100 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen  bg-gradient-to-br  from-blue-50 to-blue-100 py-12 px-4 sm:px-6 lg:px-8">
       {/* Header Section */}
       <div className="text-center mb-16">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
