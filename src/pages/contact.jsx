@@ -1,7 +1,7 @@
 const data = {
      phone: "+250 788 123 456",
      email: "info@gikonkohealthcenter.com",
-     address: "Kigali, Rwanda - KN 123 Street",
+     address: "Gisagara, Rwanda - GG 123 Street",
      hours: "Mon - Fri: 8:00 AM - 6:00 PM, Sat: 8:00 AM - 2:00 PM",
 }
 
