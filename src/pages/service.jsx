@@ -35,8 +35,16 @@ return(
              <img src={s1} className="rounded-2xl w-[600px]" />
             </div>
            </div>
-           
 
+ 
+            
+    
+               
+            
+    
+
+            
+           
        </div>
     );
 }
