@@ -207,10 +207,12 @@ function Service() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-blue-50 transition-colors duration-300">
-              Book Appointment
+              <a href="contact">Book Appointment</a>
             </button>
+           
             <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-all duration-300">
-              Contact Us
+              <a href="contact">Contact Us</a>
+            
             </button>
           </div>
         </div>
