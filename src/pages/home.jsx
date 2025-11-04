@@ -222,13 +222,13 @@ function Home() {
           <div className="max-w-7xl mx-auto px-6 py-4">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-blue-300 text-sm">
-                © 2024 Gikonko Health Center. All rights reserved.
+                © 2025 Gikonko Health Center. All rights reserved <br />
                 @prepared by IGITEGO BERWA Chanisse
               </p>
               <div className="flex space-x-6 mt-2 md:mt-0">
-                <a href="#" className="text-blue-300 hover:text-white text-sm transition-colors duration-200">Privacy Policy</a>
-                <a href="#" className="text-blue-300 hover:text-white text-sm transition-colors duration-200">Terms of Service</a>
-                <a href="#" className="text-blue-300 hover:text-white text-sm transition-colors duration-200">Sitemap</a>
+                {/* <a href="#" className="text-blue-300 hover:text-white text-sm transition-colors duration-200">Privacy Policy</a> */}
+                {/* <a href="#" className="text-blue-300 hover:text-white text-sm transition-colors duration-200">Terms of Service</a> */}
+                {/* <a href="#" className="text-blue-300 hover:text-white text-sm transition-colors duration-200">Sitemap</a> */}
               </div>
             </div>
           </div>

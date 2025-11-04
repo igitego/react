@@ -186,7 +186,7 @@ function Partnership() {
             Interested in partnering with us to make a difference in healthcare?
           </p>
           <button className="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-blue-50 transition-colors duration-300 shadow-lg">
-           <a href="ourdoctor"> Get in Touch</a>
+           <a href="contact"> Get in Touch</a>
           </button>
         </div>
       </div>
