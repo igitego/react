@@ -1,5 +1,5 @@
 import doct1 from "../assets/doct1.png"
-import doct2 from "../assets/doct2.png"
+import nu from "../assets/nu.jpg"
 import doct3 from "../assets/doct3.png"
 
 function Ourdoctor() {
@@ -83,7 +83,7 @@ function Ourdoctor() {
           <div className="lg:w-1/2">
             <div className="relative group">
               <img 
-                src={doct2} 
+                src={nu} 
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover transform group-hover:scale-105 transition-transform duration-300"
                 alt="Nursing Team"
               />

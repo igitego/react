@@ -5,10 +5,9 @@ import logo1 from "../assets/logo1.png";
 function Partnership() {
   return (
     <div className="bg-gradient-to-br from-blue-50 to-blue-100 min-h-screen py-12">
-      {/* Header Section */}
       <div className="max-w-4xl mx-auto px-6 text-center mb-16">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-          Our <span className="text-blue-600">Partnerships</span>
+        <h1 className="mb-16">
+          Our <span>Partnerships</span>
         </h1>
         <div className="w-24 h-1 bg-blue-500 mx-auto mb-6"></div>
         <p className="text-lg text-gray-600 leading-relaxed">
@@ -18,7 +17,6 @@ function Partnership() {
         </p>
       </div>
 
-      {/* Partnership 1 - Institut Saint Boniface */}
       <div className="max-w-7xl mx-auto px-6 mb-20">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* Image Section */}

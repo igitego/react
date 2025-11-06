@@ -4,27 +4,26 @@ import background from "../assets/background.jpg"
 function Home() {
   return (
     <div className="min-h-screen flex flex-col">
-      {/* Main Content */}
-      <div className="flex-grow flex flex-col lg:flex-row">
-        {/* Background Image Section */}
+      <div className=" flex    flex-col lg:flex-row">
+        
         <div 
           className="w-full lg:w-1/2 h-64 lg:h-auto bg-cover bg-center relative"
           style={{ backgroundImage: `url(${background})` }}
         >
-          {/* Overlay for better text readability on mobile */}
+      
           <div className="absolute inset-0  bg-opacity-40 lg:bg-opacity-0"></div>
           
-          {/* Mobile-only content */}
+          
           <div className="relative z-10 h-full flex flex-col justify-center items-center text-white p-6 lg:hidden">
             <h1 className="text-3xl font-bold text-center mb-4">Welcome to Gikonko Health Center</h1>
             <p className="text-center text-lg">Your Health, Our Priority</p>
           </div>
         </div> 
 
-        {/* Content Section */}
+    
         <div className="w-full lg:w-1/2 flex flex-col justify-center items-center p-6 lg:p-16 bg-gradient-to-br from-blue-50 to-blue-100">
           <div className="bg-white p-8 lg:p-12 rounded-2xl shadow-2xl max-w-2xl w-full border-l-4 border-blue-500 transform hover:scale-105 transition-transform duration-300">
-            {/* Header */}
+            
             <div className="text-center mb-8">
               <h1 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-800 mb-4">
                 Welcome to <span className="text-blue-600">Gikonko Health Center</span>
@@ -32,7 +31,7 @@ function Home() {
               <div className="w-20 h-1 bg-blue-500 mx-auto mb-6"></div>
             </div>
 
-            {/* Main Content */}
+            
             <div className="space-y-6">
               <p className="text-lg text-gray-600 leading-relaxed text-justify">
                 We are dedicated to providing top-quality healthcare for you and your family. 
@@ -45,7 +44,7 @@ function Home() {
                 we are here to support you every step of the way with compassion and expertise.
               </p>
 
-              {/* Features Grid */}
+            
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
                 <div className="flex items-center space-x-3 p-3 bg-blue-50 rounded-lg">
                   <div className="bg-blue-100 p-2 rounded-full">
@@ -84,7 +83,7 @@ function Home() {
                 </div>
               </div>
 
-              {/* Call to Action */}
+            
               <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <Link 
                   to="/contact" 
@@ -100,7 +99,7 @@ function Home() {
                 </Link>
               </div>
 
-              {/* Emergency Notice */}
+            
               <div className="mt-6 p-4 bg-red-50 border border-red-200 rounded-lg text-center">
                 <p className="text-red-700 font-semibold">
                   <svg className="w-5 h-5 inline mr-2" fill="currentColor" viewBox="0 0 20 20">
@@ -111,8 +110,6 @@ function Home() {
               </div>
             </div>
           </div>
-
-          {/* Additional Info Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 max-w-4xl w-full">
             <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-green-500 text-center">
               <div className="text-2xl font-bold text-gray-800 mb-2">50+</div>
@@ -132,12 +129,10 @@ function Home() {
         </div>
       </div>
 
-      {/* Footer */}
+      
       <footer className="bg-gradient-to-r from-blue-800 to-blue-900 text-white">
-        {/* Main Footer Content */}
         <div className="max-w-7xl mx-auto px-6 py-12">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* Brand Section */}
             <div className="lg:col-span-2">
               <div className="flex items-center mb-4">
                 <div className="bg-white p-2 rounded-lg mr-3">
@@ -171,7 +166,6 @@ function Home() {
               </div>
             </div>
 
-            {/* Quick Links */}
             <div>
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2">
@@ -183,7 +177,6 @@ function Home() {
               </ul>
             </div>
 
-            {/* Contact Info */}
             <div>
               <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
               <ul className="space-y-3">
@@ -217,7 +210,7 @@ function Home() {
           </div>
         </div>
 
-        {/* Bottom Bar */}
+        
         <div className="border-t border-blue-700">
           <div className="max-w-7xl mx-auto px-6 py-4">
             <div className="flex flex-col md:flex-row justify-between items-center">
